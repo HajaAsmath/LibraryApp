@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/style.css"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    </head>
+    <body>
+        <header>
+            <div id="heading">
+                <h1>Not a library</h1>
+            </div>
+        </header>
+        <main>
+            <div class="catalogue">
+                <div class="add">
+                    <span class="plus">&plus;</span>
+                </div>
+            </div>
+            <div id="modal">
+                <span class="close">&times;</span>
+                <div class="form">
+                    <input type="text" name="book-name" id="book-id">
+                    <label>Book name</label> </br><input type="text" name="book-name" id="book-name"></br>
+                    <label>Author</label></br><input type="text" name="author" id="author"></br>
+                    <label>Total pages</label> </br><input type="number" name="total-pages" id="total-pages"></br>
+                    <label>Pages completed</label> </br><input type="number" name="pages-completed" id="pages-completed"></br>
+                    <span id="pagesError">Pages Completed should be less than total pages</span>
+                </div>
+                <div class="add-button">
+                    <span>Save</span>
+                </div>
+            </div>
+        </main>
+        <script src="script/script.js"></script>
+    </body>
+</html>
